@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="cont">
+        <h1>Flexbox</h1>
+        <p>Before we look into CSS flexbox , we will look into float and clear properties.</p>
+        <h2>The Float Properties</h2>
+        <p>Float properties are simple. It just flows the elements towards left/right.</p>
+        <h2>The Clear Property</h2>
+        <p>Used to clear the float. It specifies what elements can flow beside the given elements.</p>
+        <h1>The CSS Flexbox</h1>
+        <p>Aims at providing a better way to layout , aling and distribute space among items in a container. <br>.cont{ display: flex; => Initialize a flexbox.}</p>
+        <h2>Flex-direction Property</h2>
+        <p>Defines the direction towards which items are laid can be row(default), row-reverse, column, column-reverse.</p>
+        <h2>Flex Properties For Parents (Flex Container)</h2>
+        <p>Following are the properties for the flex parent: </p>
+        <h3>flex-wrap</h3>
+        <p>Can be wrap, nowrap, wrap-reverse. Wrap items as needed with the property. </p>
+        <h3>justify-content</h3>
+        <p>Defines alingment along main-axis.</p>
+        <h3>aling-items</h3>
+        <p>Defines alingment along cross-axis.</p>
+        <h3>aling-content</h3>
+        <p>Alings a flex contianer's lines when there is a extra space in a cross-axis.</p>
+        <h2>Flex Properties For Children (Flex Items)</h2>
+        <p>Following are the properties for flex children: </p>
+        <h3>Order</h3>
+        <p>Controls the order in which the items appear in the flex container.</p>
+        <h3>aling-self</h3>
+        <p>Allows default alingment to be overridder for the indivisiual flex items.</p>
+        <h3>flex-grow</h3>
+        <p>Defines the ability for a flex item to grow.</p>
+        <h3>flex-shrink</h3>
+        <p>Specifies how much a flex item will shrink relative to the rest of the flex items.</p>
+    </div>
+</body>
+</html>

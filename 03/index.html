@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter-3</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="cont1">
+        <h1>CSS Box Model</h1>
+        <p>The CSS box model loks at all the HTML elements as boxes.</p>
+        <h2>Setting Width & Height</h2>
+        <p>We can set height and width in CSS as follows: <br>#box{height: 120px; <br>width: 120px;}</p>
+        <p id="note">That total height/width is calculated as follows: <br>Total height = height + top/bottom padding + top/bottom border + top/border margin</p>
+        <h2>Setting Margin and Padding</h2>
+        <p>We can set margin and padding as follows: <br>.box{ margin: 3px; <br> padding: 3px;} <br>As you know margin have four sides then you can also add them by following: <br>.boxmain{ margin: 2px 4px 6px 2px}; <br>It is of clockwise-direction. <br>For Top/Bottom and Left/Right as follows: <br>.main{ margin: 6px(T/B) 4px(R/L)}; <br>You can also do it indivisiually .<br>Such as margin-top: 12px;</p>
+        <h2>Setting Borders</h2>
+        <p>We can set borders as follows: <br>.bx{border-width: 2px; <br> border-style: solid; <br> border-color: red; / border: 2px solid red;}</p>
+        <h3>Border Radius</h3>
+        <p>We can set border radius to create rounded borders. <br>.main{border-radius: 12px;}</p>
+    </div>
+    <div class="cont2">
+        <h1>Margin Collapse</h1>
+        <p>When two margins from different elements overlap, the equivalent margin is the greater of the two. This is called margin collapse.</p>
+        <h2>Box-Sizing</h2>
+        <p>Determines what out of padding and border is included in the element's width and height. <br> .div{ box-sizing: border-box;}</p>
+        <p id="note">Can be of Border-box and Content-box.</p>
+        <a href="/03/practiceset.html"><button id="btn">Click Me</button></a>
+    </div>
+</body>
+</html>

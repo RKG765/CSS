@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CH: 05 Size Position & List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="cont">
+        <h1>Size Position & List</h1>
+        <p>There are more unit for describing size other than 'px'. These are rem,em,vw,vh,percentages etc.</p>
+        <h2>What's Wrong With 'px'?</h2>
+        <p>Pixels are relative to the veiwing device, For a device with size 1920x1080, 1px is 1unit of 1080/1920.</p>
+        <h2>Relative Lenghts</h2>
+        <p>These units are relative to the other length property. <br>Following are some of the most commonly used relative lenghts: <br>1. em(means it gets multiplied by the no of it's parent size.): Unit relative to the parent of the font size. em means "my parent element's fontsize". <br> 2. rem(means it's root{is html size(16px bt defalult)} value is multiplied by the given number.): Unit relative to the root font size(<html>tag>). <br>vw/vh(): Unit relative to the 1% viewport width/height. <br></p>
+        <h2>min/max height/width property</h2>
+        <p>CSS has a min-hight,max-height,min-width,max-width property. <br>If the content is smaller than the minimum height, minimum height will be applied. <br>Similar is the case related with the other properties.</p>
+
+    </div>
+    <div class="cont2">
+        <h1>The Position Property</h1>
+        <p>Used to manipulate the location of an element. <br>Following are as possible values:</p>
+        <h2>position: static;</h2>
+        <p>The defalult position. Top/Bottom/Left/Right/z-axis has no effect.</p>
+        <h2>position: relative;</h2>
+        <p>The Top/Bottom/Left/Right/Z-index will now work. Otherwise the element is in the flow of document like static.</p>
+        <h2>position: absolute;</h2>
+        <p>The element is removed from the flow & is relatively positioned to it's first non-static ancestor. top/bottom etc works.</p>
+        <h2>position: fixed</h2>
+        <p>Just like absolute except the element is positioned relative to the browser window.</p>
+        <h2>position: sticky</h2>
+        <p>The element is postitioned based on user's scroll position.</p>
+        <h2>z-index property</h2>     
+        <p>The z-index property specifies the stock order of an element. <br>It defines which layer will be above which in case of overlapping elements.</p>
+        <h2>list-style property</h2>
+        <p>This list style property is a shorthand for type, position and image. <br> r{<br> lsit-style: square inside url('img.jpg')}</p>
+    </div>
+</body>
+</html>

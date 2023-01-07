@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CH2 Colors & Background</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Colors & Background</h1>
+    <div class="cont">
+        <p>CSS rules are simple key-value pairs with a selector. We can write CSS rules to change color set background.
+        </p>
+        <h2>Color Property</h2>
+        <p>The CSS color property can be used to set the text color inside an element.<br>Like: p{color: red;}
+            <br>Similarly we can set color for different elements.</p>
+        <h3>Types Of Color Values</h3>
+        <p>Following are the most commonly used color values in CSS. <br>1.RGB: Specify color using Red,Green,Blue
+            values. <br>2.HEX Code: Specify color using hex code. Like--> #ff7180 <br>3.HSL(Hue,Saturation,Lightness):Specify the color using HSL value. Like--> hsl(8,90%,60%) <br><br>Note: We also have an RGBA and HSLA values for color but they are rarely used by beginners. A: Aplha.</p>
+    </div>
+    <div class="const">
+        <h2>Backgrounds</h2>
+        <h3>Background Color Property</h3>
+        <a href="/02/background.html"><img src="/02/background.jpg" alt="Error" width="320px"></a>
+        <p>The CSS background-color property specifies the background color of a container.</p>
+        <h3>Background Image Property</h3>
+        <p>It is used to set an image as the background. <br>The image is by default repeted in x & y directions.</p>
+        <h3>Background Repeat Property</h3>
+        <p>Can be any of: <br></p>
+        <ul>
+        <li>1. repeat-x --> Repeat in horizontal direction.</li>
+        <li>2. repeat-y --> Repeat in vertical direction.</li>
+        <li>3. no-repeat --> Image not repeat.</li>
+        </ul>
+        <h3>Background-Size Property</h3>
+        <p>Can be of following: <br></p>
+        <ol>
+            <li>Cover: Fits no-empty space remains but the image can be blurry if it is of low resolution.</li>
+            <li>Contain: Fits on the basis of visiblity of image.</li>
+            <li>auto: Display in orignal size.</li>
+            <li>{{width}}: Set width and height will set automatically.</li>
+        </ol>
+        <h3>Background Position Property</h3>
+        <p>Sets the starting position of a background-image. <br>div <br>{background-position: left-top;}</p>
+        <h3>Background-attachment property</h3>
+        <p>Defines a scrollable & non-scrollable character of a background image.<br>div <br>{background-attachment: fixed;} <br>Some imp: <br>1. Fixed: background-image will be fixed. <br>2. Scroll: Both will look like scrolling but inner scroll's. <br>3. Local: Both will scroll.</p>
+        <h3>Background-shorthand Property</h3>
+        <p>A single property to set multiple background-properties. <br><br>div <br>{background: red url('img.jpg') no-repeat fixed right top;} <br><br>One of the properties can be missing given the others are in order.</p>
+        <h2>Practice Set</h2>
+        <a href="/02/practiceset.html">Click Here</a>
+    </div>
+</body>
+
+</html>

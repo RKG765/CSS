@@ -1,0 +1,31 @@
+*{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    /* border: 3px solid green; */
+    
+}
+header{
+    border: 3px solid red;
+    margin: 8px;
+}
+.content{
+    color: aliceblue;
+    border: 3px solid purple;
+    margin: 7px;
+    box-sizing: content-box;
+}
+footer{
+    border: 3px solid forestgreen;
+    margin: 9px;
+    color: brown;
+}
+#copy{
+    text-align: center;
+    font-style: italic;
+    font-size: 18px;
+}
+#query{
+    color: brown;
+    
+}

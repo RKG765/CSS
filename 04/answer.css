@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+footer{
+    background-color: darkcyan;
+    /* font-variant: small-caps; */
+    text-transform: uppercase;
+    font-size: 48px;
+    font-family: 'Qwitcher Grypen', cursive;
+}
+.red{
+    width: 400px;
+    height: 400px;
+    display: inline-block;
+    border: 3px solid black;
+    visibility: hidden;
+
+    /* display: none; */
+}
+.green{
+    margin: 0px;
+    width: 400px;
+    height: 400px;
+    border: 3px solid crimson;
+    display: inline-block;
+}
+.black{
+    height: 100px;
+}
+.black ul li a{
+    color:blanchedalmond;
+    text-decoration: none;
+}
+.black ul li{
+    margin: 20px;
+    font-size: 23px;
+    display: inline-block;
+    background-color: black;
+}

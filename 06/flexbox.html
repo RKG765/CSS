@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            display: flex;
+            /* flex-direction: row-reverse; */
+            /* flex-wrap:wrap; */
+            justify-content:center;
+            /* align-items: center; means it will alling items centre but when the height of container increases it will leave spaces b/w it. */
+            align-content: center;
+            background-color: aquamarine;
+            height: 120vh;
+
+        }
+        .cont{
+            background-color: brown;
+            height: 300px;
+            width: 240px;
+            border: 2px solid black;
+            /* order: 2; */
+            /* align-self: center; */
+            flex-shrink: 1;
+        }
+        .cont2{
+            background-color: red;
+            height: 300px;
+            width: 240px;
+            border: 2px solid black;
+            flex-grow: 2;
+            /* float: right; */
+            /* clear: right; */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="cont">
+            <p>This is box1.</p>
+        </div>
+        <div class="cont2">
+            <p>This is box2.</p>
+        </div>
+        <div class="cont2">
+            <p>This is box3.</p>
+        </div>
+        <div class="cont2">
+            <p>This is box4.</p>
+        </div>
+    </div>
+</body>
+</html>
